@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_web_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margin_setting"
+        android:text="@string/btn_web"
+        android:textSize="@dimen/font_size_btn"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_web_page"
+        android:layout_marginTop="@dimen/button_margin_setting"
+        android:text="@string/btn_gallery"
+        android:textSize="@dimen/font_size_btn"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_gallery"
+        android:layout_marginTop="@dimen/button_margin_setting"
+        android:text="@string/btn_call"
+        android:textSize="@dimen/font_size_btn"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtxt_mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btn_call"
+        android:layout_marginLeft="@dimen/margin_setting"
+        android:layout_toRightOf="@id/btn_call"
+        android:hint="@string/edtxt_number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_btn"
+        android:id="@+id/btn_previous_implicit_intent"
+        android:layout_below="@id/btn_call"
+        android:layout_marginTop="@dimen/button_margin_setting"
+        android:text="@string/previous_activity" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_btn"
+        android:id="@+id/btn_start_service"
+        android:layout_below="@id/btn_previous_implicit_intent"
+        android:layout_marginTop="@dimen/button_margin_setting"
+        android:text="@string/button_start_service" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="registration_page_name"><u>User Registration</u></string>
+
+    <string name="btn_web">Facebook Login</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_call">Call</string>
+
+    <string name="edtxt_number">Enter mobile number</string>
+    <string name="user_name_hint">Enter your name</string>
+    <string name="user_age_hint">Enter your age</string>
+    <string name="user_course_hint">Enter your course</string>
+    <string name="password_hint">Enter password</string>
+
+    <string name="user_name_text_view">User Name:</string>
+    <string name="password_text_view">Password:</string>
+    <string name="age_text_view">Age:</string>
+    <string name="course_text_view">Course:</string>
+    <string name="second_fragment_textview">This is Second Fragment.</string>
+    <string name="first_fragment_textview">This is First Fragment.</string>
+    <string name="my_broadcasting_textview">My Broadcast Receiver</string>
+
+    <string name="login_button">Login</string>
+    <string name="registration_button">Register</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="fragment_one_button">Fragment One</string>
+    <string name="fragment_two_button">Fragment Two</string>
+    <string name="fragment_three_button">Fragment Three</string>
+    <string name="previous_activity">Previous activity</string>
+    <string name="move_to_implicit_intent_activity">Implicit Intent Activity</string>
+    <string name="button_start_service">Click to start service</string>
+    <string name="broadcast_message">Broadcast</string>
+
+</resources>

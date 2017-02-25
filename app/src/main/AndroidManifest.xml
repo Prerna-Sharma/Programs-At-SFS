@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.androidprograms">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.student.splashloginandregistrationactivities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ImplicitIntentActivity" />
+        <activity android:name="com.example.student.listviewfiles.CustomizedListViewActivity" />
+        <activity android:name="com.example.student.splashloginandregistrationactivities.LoginActivity" />
+        <activity android:name="com.example.student.splashloginandregistrationactivities.RegistrationActivity" />
+        <activity android:name="com.example.student.myapplication.MainActivity" />
+        <activity android:name="com.example.student.parcelabledatafiles.ShowParcelableDataActivity" />
+        <activity android:name="com.example.student.fragments.FragmentsHoldingActivity" />
+        <activity android:name=".showDataFromNextActivity" />
+        <activity android:name="com.example.student.fragmentsintablayout.TabbedFragmentsActivity" />
+        <activity android:name="com.example.student.broadcastreceiverprograms.BroadcastingActivity" />
+        <activity android:name="com.example.student.navigationdrawerfiles.NavigationDrawerActivity" />
+        <activity android:name="com.example.student.Threadsandhandler.MyThreadHandlerActivity" />
+
+        <receiver android:name="com.example.student.broadcastreceiverprograms.MyReceiver">
+            <intent-filter>
+                <action android:name="custombroadcast" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.example.student.Services.MyService" />
+        <service android:name="com.example.student.Services.MyIntentService" />
+
+        <activity android:name="com.example.student.storage.DataStorageActivity" />
+        <activity android:name="com.example.student.storage.DataRetrieveActivity"></activity>
+        <activity android:name="com.example.student.SQLiteDatabase.CrudOperations"/>
+    </application>
+
+</manifest>

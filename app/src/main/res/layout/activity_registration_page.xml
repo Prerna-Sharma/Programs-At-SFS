@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_setting"
+        android:text="@string/registration_page_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/font_size_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_setting"
+            android:layout_marginTop="@dimen/margin_setting"
+            android:text="@string/user_name_text_view"
+            android:textSize="@dimen/font_size_btn" />
+
+        <EditText
+            android:id="@+id/registration_edittext_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_setting"
+            android:layout_marginTop="@dimen/margin_setting"
+            android:hint="@string/user_name_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_setting"
+            android:layout_marginTop="@dimen/margin_setting"
+            android:layout_marginRight="@dimen/margin_setting"
+            android:text="@string/age_text_view"
+            android:textSize="@dimen/font_size_btn" />
+
+        <EditText
+            android:id="@+id/registration_edittext_age"
+            android:layout_width="wrap_content"
+            android:paddingLeft="@dimen/button_margin_setting"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_setting"
+            android:layout_marginTop="@dimen/margin_setting"
+            android:hint="@string/user_age_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_setting"
+            android:layout_marginTop="@dimen/margin_setting"
+            android:text="@string/course_text_view"
+            android:textSize="@dimen/font_size_btn" />
+
+        <EditText
+            android:id="@+id/registration_edittext_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/button_margin_setting"
+            android:layout_marginLeft="@dimen/margin_setting"
+            android:layout_marginTop="@dimen/margin_setting"
+            android:hint="@string/user_course_hint" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/margin_setting"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registration_button_submit"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_size_btn"
+            android:text="@string/submit_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_margin_setting"
+            android:id="@+id/registration_button_cancel"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_size_btn"
+            android:text="@string/cancel_button"/>
+    </LinearLayout>
+
+
+</LinearLayout>
